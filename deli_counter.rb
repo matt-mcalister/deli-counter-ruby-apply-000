@@ -1,5 +1,5 @@
 katz_deli = []
-Number = 0
+number = 0
 
 def line(array)
   if array.count == 0
@@ -18,9 +18,9 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  Number += 1
-  array << Number
-  puts "Welcome, #{name}. You are number #{Number} in line."
+  number += 1
+  array << number
+  puts "Welcome, #{name}. You are number #{number} in line."
 end
 
 def now_serving(array)
@@ -45,4 +45,3 @@ now_serving(katz_deli)
 line(katz_deli)
 now_serving(katz_deli)
 line(katz_deli)
-
