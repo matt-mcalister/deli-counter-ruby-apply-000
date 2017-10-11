@@ -33,11 +33,11 @@ def now_serving(array)
   puts answer
 end
 
-take_a_number(katz_deli,frank)
+take_a_number(katz_deli,"frank")
 line(katz_deli)
-take_a_number(katz_deli,betty)
+take_a_number(katz_deli,"betty")
 line(katz_deli)
-take_a_number(katz_deli,tom)
+take_a_number(katz_deli,"tom")
 line(katz_deli)
 now_serving(katz_deli)
 line(katz_deli)
