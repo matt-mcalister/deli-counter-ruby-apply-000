@@ -1,5 +1,5 @@
 katz_deli = []
-number = 0
+$number = 0
 
 def line(array)
   if array.count == 0
@@ -18,9 +18,9 @@ def line(array)
 end
 
 def take_a_number(array, name)
-  number += 1
-  array << number
-  puts "Welcome, #{name}. You are number #{number} in line."
+  $number += 1
+  array << $number
+  puts "Welcome, #{name}. You are number #{$number} in line."
 end
 
 def now_serving(array)
